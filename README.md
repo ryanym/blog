@@ -1,2 +1,1 @@
 # ryanym.github.io
-# blog

@@ -1,0 +1,91 @@
+body {
+  color: #eee;
+  background-color: #222;
+}
+
+mark {
+  background-color: #444;
+}
+
+.note,
+.site.name {
+  color: #eee;
+}
+
+.site.slogan .title,
+.note.date,
+.article.date,
+.footer {
+  color: rgba(235, 235, 245, .6);
+}
+
+.note.content,
+.article.markdown-body {
+  color: #ddd;
+}
+
+code,
+kbd,
+tt,
+samp {
+  color: #e78;
+}
+
+a {
+  color: #0a84ff;
+}
+
+.pagination ul li a {
+  color: #0a84ff;
+}
+
+.pagination ul li a.active {
+  background-color: #0a84ff;
+}
+
+.pagination ul li a:hover:not(.active) {
+  background-color: rgba(10, 132, 255, .5);
+}
+
+.tag {
+  color: #fc6a5d;
+}
+
+.category {
+  color: #5dd8ff;
+}
+
+.note.list .item a:hover,
+.nav.item:hover,
+.article.tag:hover,
+.article.category:hover {
+  background-color: #333;
+  text-decoration: none;
+}
+
+/* border color */
+pre,
+.note.imgs .img,
+.image-container .img,
+.article.markdown-body table td,
+.article.markdown-body table th,
+.article.markdown-body .lntable {
+  border-color: rgba(84, 84, 88, .6);
+}
+
+.article.markdown-body h1,
+.article.markdown-body h2,
+.image-container .title,
+.site.slogan .title,
+.note.list .item {
+  border-bottom-color: rgba(84, 84, 88, .6);
+}
+
+.article.discussion {
+  border-top-color: rgba(84, 84, 88, .6);
+  border-bottom-color: rgba(84, 84, 88, .6);
+}
+
+.article.markdown-body .lntable tr>:first-child {
+  border-right-color: rgba(84, 84, 88, .6);
+}
