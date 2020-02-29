@@ -28,7 +28,7 @@ Edit:
 
 Note the order of the nameservices matters, the first nameservice will be the default hdfs namespace that you can access without the `hdfs://` URI
 
-```xml
+```
 <property>
  <name>dfs.nameservices</name>
  <value>nameservice1,pdvnameservice</value>
@@ -37,7 +37,7 @@ Note the order of the nameservices matters, the first nameservice will be the de
 
 Add:
 
-```xml
+```
   <property>
     <name>dfs.ha.namenodes.pdvnameservice</name>
     <value>namenode1,namenode2</value>
