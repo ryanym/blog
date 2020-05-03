@@ -17,11 +17,17 @@ categories = [
   "leetcode", 
   "interview prep",
 ]
-draft  = true
+draft  = false
+
 +++
 **Note this page is still work in progress**
 
-[TOC]
+- [Chapter 1: Arrays and Strings](#chapter-1--arrays-and-strings)
+- [Chapter 2: Linked Lists](#chapter-2--linked-lists)
+- [Chapter 3: Stacks and Queues](#chapter-3--stacks-and-queues)
+- [Chapter 4: Trees and Graphs](#chapter-4--trees-and-graphs)
+- [Chapter 8: Recursion and Dynamic Programming](#chapter-8--recursion-and-dynamic-programming)
+- [Chapter 10: Sorting and Searching](#chapter-10--sorting-and-searching)
 
 ## Chapter 1: Arrays and Strings
 
