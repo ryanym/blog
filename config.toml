@@ -3,6 +3,7 @@ title = "Untitled Thoughts"
 theme = "hugo-notepadium"
 copyright = "©2020 Ryan Ma"
 
+staticDir = ["static", "blog_files"]
 languageCode = "zh-cn"
 hasCJKLanguage = true
 
@@ -22,17 +23,17 @@ noClasses = false
 unsafe = true  # enable raw HTML in Markdown
 
 [params]
-style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+style = "light"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
 logo = ""  # if you have a logo png
-slogan = "\"The more you know, the more you know you don't know.\" -- Aristotle"
+# slogan = "\"The more you know, the more you know you don't know.\" -- Aristotle"
 license = ""  # CC License
 
 [params.comments]
 enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
 [params.math]
-enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
+enable = true # optional: true, false. Enable globally, default: false. You can always enable math on per page.
 use = "katex"  # option: "katex", "mathjax". default: "katex"
 
 [params.syntax]
@@ -47,8 +48,8 @@ showTags = true             # /tags/
 # custom navigation items
 
 [[params.nav.custom]]
-title = "About"
-url = "/about"
+title = "Coursework"
+url = "/coursework"
 
 [[params.nav.custom]]
 title = "Bookshelf"
