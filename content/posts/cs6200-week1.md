@@ -15,13 +15,13 @@ draft  = false
 
 +++
 
-## C Tutorial
+# C Tutorial
 
 [Essential C](http://cslibrary.stanford.edu/101/EssentialC.pdf)  
 
 [Pointers and Memory](http://cslibrary.stanford.edu/102/PointersAndMemory.pdf)  
 
-## What is an Operating System
+#  What is an Operating System
 
 An operating system abstract and arbitrary the use of underlying hardware
 
